@@ -25,7 +25,8 @@ struct CardView: View {
     
     var body: some View {
         ZStack {
-            var rr = RoundedRectangle(cornerRadius: 16)
+//            let rr: RoundedRectangle = RoundedRectangle(cornerRadius: 16)
+            let rr: Circle = Circle()
             
             if isFaceUp {
                 rr.strokeBorder(lineWidth: 2)
